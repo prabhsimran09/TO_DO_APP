@@ -1,0 +1,52 @@
+body{
+    margin : 0;
+}
+*{
+  box-sizing: border-box;
+  margin: auto;
+}
+.main_container{
+    background-color: wheat ;
+    padding: 10 10 10 10px; 
+}
+.input_container{
+    background-color:indianred;
+    height: 20vh;  
+    width: 40vw;
+    text-align: center;
+    border: wheat solid 5px;
+}
+.task_container{
+    background-color:indianred;
+    height: 80vh;
+    width: 80vw;;  
+    border: wheat solid 5px;
+}
+.task_container li{
+  background-color:wheat ;
+  width: 80%;
+}
+.task_input{
+  height: 20%;
+  width: 50%;
+}
+.heading{
+   color: wheat;
+   text-decoration: underline;
+   padding-bottom: 20px;
+}
+.task_list{   
+  font-size: 20px;
+  list-style-type:none;
+  padding-top: 10px;
+  padding-left: 0;
+  text-align: center;
+}
+@media screen and (max-width: 768px){
+  .input_container,
+  .task_container li{
+    width: 70%;
+    overflow: scroll;
+  }
+}
+  
