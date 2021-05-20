@@ -25,6 +25,7 @@ body{
 .task_container li{
   background-color:wheat ;
   width: 80%;
+  margin-bottom: 5px;
 }
 .task_input{
   height: 20%;
@@ -35,12 +36,14 @@ body{
    text-decoration: underline;
    padding-bottom: 20px;
 }
+
 .task_list{   
   font-size: 20px;
   list-style-type:none;
   padding-top: 10px;
   padding-left: 0;
   text-align: center;
+
 }
 @media screen and (max-width: 768px){
   .input_container,
